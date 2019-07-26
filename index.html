@@ -1,0 +1,357 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/my-styles.css">
+  <title>Bootstrap Page</title>
+</head>
+<body id='home' class='bg-light' data-spy="scroll" data-target=".navbar" data-offset='100'>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand order-1 mr-0" href="#home">YogaMA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#speakers">Teachers</a>
+          <a class="nav-item nav-link" href="#schedule" tabindex="-1" aria-disabled="true">Schedule</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid bg-secondary text-white">
+    <div class="container text-center pt-5">
+      <h1 class="display-2">Yoga Classes</h1>
+      <p class="lead">What if everything you need is already inside?</p>
+
+      <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
+        <button type="button" class="btn btn-info btn-lg mr-1" data-toggle="modal" data-target="#register">Register Now</button>
+        <a class="btn btn-light btn-lg ml-1" href='#speakers'>See Teachers</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container pt-4">
+    <div id='about' class="row">
+      <div class="col-lg order-lg-2">
+        <h3 class='mb-4'>About YogaMA</h3>
+        <img class="mb-4 img-fluid rounded d-none d-sm-block" src='images/MA.jpg' alt='People practicing yoga'/>
+        <p>YogaMA enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+      </div>
+      <div class="col-lg order-lg-1">
+        <h3 class='mb-4'>Professional Teachers</h3>
+        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum.</p>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p>Nos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit.</p>
+      </div>
+      <div class="col-lg order-lg-3">
+        <h3 class='mb-4'>What We'll Teach You</h3>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action"><strong>Mind</strong>: Dolorem ipsum</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>Body</strong>: Polorem opsum</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>Self Awareness</strong>: Polorem tyum numas</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>Chakra</strong>: Iolorem ipsum sit amet</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>Strength</strong>: Kolorem ipsum sit omar</a>
+          <a href="#" class="list-group-item list-group-item-action"><strong>Peace</strong>: Aolorem ipsum sitte</a>
+        </div>
+      </div>
+    </div>
+
+    <h1 id='speakers' class='display-4 text-center my-5 text-muted text-secondary'>Teachers</h1>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img src="images/person01.jpg" class="card-img-top" alt="Josh">
+          <div class="card-body">
+            <h5 class="card-title">Josh Andersen</h5>
+            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img src="images/person02.jpg" class="card-img-top" alt="Monica">
+          <div class="card-body">
+            <h5 class="card-title">Monica Uwanovski</h5>
+            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img src="images/person03.jpg" class="card-img-top" alt="Alex">
+          <div class="card-body">
+            <h5 class="card-title">Alex Fluke</h5>
+            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img src="images/person04.jpg" class="card-img-top" alt="Veronica">
+          <div class="card-body">
+            <h5 class="card-title">Veronica Moos</h5>
+            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img src="images/person05.jpg" class="card-img-top" alt="Thomas">
+          <div class="card-body">
+            <h5 class="card-title">Thomas Deep</h5>
+            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <img src="images/person06.jpg" class="card-img-top" alt="Erick">
+          <div class="card-body">
+            <h5 class="card-title">Erick Donerstorm</h5>
+            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 id='schedule' class='display-4 text-center my-5 text-muted text-secondary'>Schedule</h1>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Ashtanga Yoga</h5>
+          <span class="badge badge-dark p-2">6:00am</span>
+        </div>
+        <p class="mb-1">Alex Fluke</p>
+      </li>
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Hot Vinyasa Flow</h5>
+          <span class="badge badge-dark p-2">8:00am</span>
+        </div>
+        <p class="mb-1">Erick Donerstorm</p>
+      </li>
+      <li class="list-group-item list-group-item-info">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Veronica Moos</h5>
+          <span class="badge badge-dark p-2">6:00pm</span>
+        </div>
+        <p class="mb-1">Hatha Yoga</p>
+      </li>
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Yin Yoga</h5>
+          <span class="badge badge-dark p-2">1:00pm</span>
+        </div>
+        <p class="mb-1">Monica Uwanovski</p>
+      </li>
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Meditation Class</h5>
+          <span class="badge badge-dark p-2">7:00pm</span>
+        </div>
+        <p class="mb-1">Thomas Deep</p>
+      </li>
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Pilates Yoga</h5>
+          <span class="badge badge-dark p-2">8:00pm</span>
+        </div>
+        <p class="mb-1">Josh Andersen</p>
+      </li>
+    </ul>
+
+    <button type="button" class="btn btn-outline-secondary btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Be Mindful, Register Now</button>
+
+    <!-- signup form -->
+    <hr>
+    <div class="row py-4 text-muted">
+      <div class="col-md col-xl-5">
+        <p><strong>Quis autem veleum</strong></p>
+        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+      </div>
+      <div class="col-md col-xl-5 ml-auto">
+        <p><strong>Stay up-to-date on YogaMA Classes</strong></p>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Email">
+          <span class="input-group-btn">
+            <button class="btn btn-dark" type="button">Sign up</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <hr><!-- /signup form -->
+
+
+    <!-- footer -->
+    <div class="row py-3">
+      <div class="col-md-7">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Tracks</a>
+          </li>
+          <li class="nav-item">
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-info">Other Classes</button>
+            <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Meditation Class</a>
+              <a class="dropdown-item" href="#">In Nature Meditanion Class</a>
+            </div>
+          </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md text-md-right font-italic">
+        <small>&copy; 2019 by Marzena Szopinska</small>
+      </div>
+    </div><!-- /footer -->
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-info text-white">
+          <h5 class="modal-title" id="exampleModalLabel">Register for Yoga Classes</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+              <strong>Hurry!</strong> Our discount for all the classes ends in 2 days.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <h5 class="mb-4">Basic Info</h5>
+            <div class="form-group">
+              <label for="name" class="sr-only">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="email" class="sr-only">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="role">Classes:</label>
+              <select class="custom-select form-control" id='role'>
+                <option value="full stack js developer">Pilates Yoga</option>
+                <option value="front end developer">Ashtanga Yoga</option>
+                <option value="back end developer">Hot Vinyasa Yoga</option>
+                <option value="designer">Hatha Yoga</option>
+                <option value="student">Yin Yoga</option>
+              </select>
+            </div>
+            <hr class="my-4" />
+            <h5 class="mb-4">Which Yoga Type Interest You The Most</h5>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck1">
+              <label class="custom-control-label" for="customCheck1">Vinyasa Flow</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck2">
+              <label class="custom-control-label" for="customCheck2">Pilates Yoga</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck3">
+              <label class="custom-control-label" for="customCheck3">Ashtanga Yoga</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck4">
+              <label class="custom-control-label" for="customCheck4">Hatha Yoga</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck5">
+              <label class="custom-control-label" for="customCheck5">Yin Yoga</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck6">
+              <label class="custom-control-label" for="customCheck6">All Above</label>
+            </div>
+
+            <hr class="mb-4"/>
+
+            <h5 class="mb-4">Payment Info</h5>
+            <div class="form-row">
+              <div class="col-lg-6 form-group">
+                <label for="cc-num">Card Number:</label>
+                <input class="form-control" id="cc-num" type="text">
+              </div>
+
+              <div class="col-lg form-group">
+                <label for="zip">Zip Code:</label>
+                <input class="form-control" id="zip" type="text">
+              </div>
+
+              <div class="col-lg form-group">
+                <label for="cvv">CVV:</label>
+                <input class="form-control" id="cvv" type="text">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label class="col-lg-12">Expiration Date:</label>
+
+              <div class="form-group col-lg-8">
+                <select class="custom-select form-control" id="exp-month">
+                  <option value="1">1 - January</option>
+                  <option value="2">2 - February</option>
+                  <option value="3">3 - March</option>
+                  <option value="4">4 - April</option>
+                  <option value="5">5 - May</option>
+                  <option value="6">6 - June</option>
+                  <option value="7">7 - July</option>
+                  <option value="8">8 - August</option>
+                  <option value="9">9 - September</option>
+                  <option value="10">10 - October</option>
+                  <option value="11">11 - November</option>
+                  <option value="12">12 - December</option>
+                </select>
+              </div>
+              <div class="form-group col-lg">
+                <select class="custom-select form-control" id="exp-year">
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                </select>
+              </div>
+            </div>
+
+            <hr class="mb-4"/>
+            <button type='submit' class="btn btn-info btn-lg">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
